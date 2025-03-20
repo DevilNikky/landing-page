@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personnel - Projets et compétences en développement web">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo"><i class="fas fa-code"></i> Mon Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about" class="nav-link">À Propos</a></li>
+                        <li><a href="#projects" class="nav-link">Projets</a></li>
+                        <li><a href="#skills" class="nav-link">Compétences</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Développeur Web Créatif</h2>
+                    <p>Bonjour, je suis Nicolas Lopez, un développeur web passionné par la création d'expériences numériques innovantes. Je combine compétences techniques et créativité pour donner vie à des projets uniques.</p>
+                    <a href="#contact" class="cta-button"><i class="fas fa-envelope"></i> Me Contacter</a>
+                </div>
+                <div class="hero-image">
+                    <div class="placeholder-image">Votre photo ou illustration ici</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section" id="projects">
+        <div class="container">
+            <h2 class="info-header">Mes Projets Récents</h2>
+            <div class="info-cards">
+                <div class="card">
+                    <div class="card-image"><i class="fas fa-laptop-code card-icon"></i></div>
+                    <h3>Projet 1</h3>
+                    <p>Site e-commerce développé avec React et Node.js. Implémentation complète du panier et du système de paiement.</p>
+                    <a href="#" class="card-link">Voir le projet</a>
+                </div>
+                <div class="card">
+                    <div class="card-image"><i class="fas fa-mobile-alt card-icon"></i></div>
+                    <h3>Projet 2</h3>
+                    <p>Application mobile pour le suivi de fitness, développée avec React Native et Firebase.</p>
+                    <a href="#" class="card-link">Voir le projet</a>
+                </div>
+                <div class="card">
+                    <div class="card-image"><i class="fas fa-palette card-icon"></i></div>
+                    <h3>Projet 3</h3>
+                    <p>Refonte d'interface utilisateur pour une application de gestion de tâches existante.</p>
+                    <a href="#" class="card-link">Voir le projet</a>
+                </div>
+                <div class="card">
+                    <div class="card-image"><i class="fas fa-chart-line card-icon"></i></div>
+                    <h3>Projet 4</h3>
+                    <p>Tableau de bord analytique pour visualiser les performances commerciales d'une entreprise.</p>
+                    <a href="#" class="card-link">Voir le projet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2 class="skills-header">Mes Compétences</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Développement Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Développement Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="container">
+            <blockquote>
+                <p>La simplicité est la sophistication suprême. Mon objectif est de créer des expériences numériques élégantes qui résolvent des problèmes complexes de manière intuitive.</p>
+                <cite>— [Votre Nom]</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-container">
+                <div class="cta-text">
+                    <h3>Intéressé par une collaboration?</h3>
+                    <p>N'hésitez pas à me contacter pour discuter de votre projet ou pour toute opportunité professionnelle.</p>
+                </div>
+                <a href="mailto:votre-email@exemple.com" class="cta-button"><i class="fas fa-paper-plane"></i> Envoyez-moi un message</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Votre Nom] - Tous droits réservés</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
